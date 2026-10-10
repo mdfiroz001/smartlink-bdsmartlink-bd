@@ -1,11 +1,4 @@
+
 {
-  "version": 2,
-  "functions": {
-    "api/shorten.js": { "runtime": "nodejs20.x" },
-    "api/[code].js": { "runtime": "nodejs20.x" }
-  },
-  "rewrites": [
-    { "source": "/api/shorten", "destination": "/api/shorten" },
-    { "source": "/:code", "destination": "/api/:code" }
-  ]
+  "version": 2
 }
